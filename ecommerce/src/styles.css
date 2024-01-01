@@ -1,5 +1,76 @@
-.navfirsttext{
-    color: blue;
-    background-color: blueviolet;
-    background-image: linear-gradient(red, red blue);
+.navbar{
+    display: flex;
+max-width: 1440px;
+height: 100px;
+padding: 0px 60px;
+justify-content: space-between;
+align-items: center;
+flex-shrink: 0;
+border-bottom: 1px solid #B4B4B3;
+background: #FFF;
+}
+
+.dividingline{
+    width: 1px;
+height: 100px;
+background: #B4B4B3;
+}
+
+.navtexts{
+    display: flex;
+align-items: center;
+gap: 32px;
+list-style: none;
+}
+
+.logo{
+    display: flex;
+max-width: 101px;
+align-items: center;
+gap: 60px;
+flex-shrink: 0;
+
+}
+
+.search{
+    max-width: 33px;
+height: 33px;
+flex-shrink: 0;
+}
+
+.heart{
+    max-width: 30px;
+height: 26.671px;
+flex-shrink: 0;
+}
+
+.bag{
+    max-width: 33px;
+height: 35px;
+flex-shrink: 0;
+}
+
+.firsttext{
+    color: #240404;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.secondtext{
+    color: #240404;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+.secondsection{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
